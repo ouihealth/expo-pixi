@@ -912,12 +912,20 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
+"@pixi/app@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@pixi/app/-/app-5.2.1.tgz#707dffac87ff31ba891b2278ac3e1d91413d5608"
+  integrity sha512-KPZ6fa324BspRTumU1Cdo2QANIu01COLcKBa3CpofHHXc5ayRDQDFiJnMpKMPYMDIPfKZeNt5aVwW0yVFB3iNQ==
+  dependencies:
+    "@pixi/core" "5.2.1"
+    "@pixi/display" "5.2.1"
+
 "@pixi/constants@5.2.1", "@pixi/constants@^5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@pixi/constants/-/constants-5.2.1.tgz#5fa6bba0a456a5a6a09e20fca378545a88228ebf"
   integrity sha512-RYeP1Q5R6qVyVioM00/fhGXFAhJjD+mJW4+TOiNZQASKP0t6wF51yuIfROEIxf5a6I6INOB3aSit1jUkSpYgTA==
 
-"@pixi/core@^5.2.1":
+"@pixi/core@5.2.1", "@pixi/core@^5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@pixi/core/-/core-5.2.1.tgz#c9ed2821608d5ef81fd01562043d5e9866ce0d89"
   integrity sha512-kREyWm87C4xZtdlw+otX+U/xJZhDUQyY/UHirbBwkO0LeAfrJm3qNyMfFZTcyW4PvmF16989IjvjGAWSeZSIQw==

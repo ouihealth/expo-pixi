@@ -5,7 +5,9 @@
   "description": "Tools for using pixi in Expo",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "homepage": "https://github.com/expo/expo-pixi#readme",
   "repository": {
@@ -46,10 +48,14 @@
     "sync": "npm run sync:basic; npm run sync:comprehensive; npm run sync:filter; npm run sync:signature; npm run sync:sketch"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "dependencies": {
     "@expo/browser-polyfill": "https://github.com/ouihealth/browser-polyfill#aef9b54",
+    "@pixi/app": "^5.2.1",
     "@pixi/constants": "^5.2.1",
     "@pixi/core": "^5.2.1",
     "@pixi/display": "^5.2.1",
